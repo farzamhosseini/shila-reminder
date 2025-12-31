@@ -17,7 +17,7 @@ TARGET_DATE = datetime(2026, 1, 25, 19, 30)  # مثال: 25 ژانویه 2026 س
 # برای ساعت: hours=1, hours=2, hours=6, ...
 # برای روز: days=1, days=2, days=7, ...
 # برای دقیقه: minutes=30, minutes=45, ...
-INTERVAL = timedelta(minutes=1)  # هر 30 دقیقه یکبار
+INTERVAL = timedelta(hours=8)  # هر 30 دقیقه یکبار
 
 # ================================================
 
@@ -100,3 +100,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
