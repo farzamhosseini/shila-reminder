@@ -2,10 +2,11 @@ import telebot
 import time
 from datetime import datetime, timedelta
 import threading
+import os
 
 # ================== تنظیمات بات ==================
-BOT_TOKEN = "8380978587:AAHNeei6nMLl1z6MumBc-va1CSZfpRAncnc"
-CHAT_ID = "-5299163759"  # اینجا Chat ID گروهت رو بذار
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = "-1002656121261"  # اینجا Chat ID گروهت رو بذار
 IMAGE_PATH = "reminder_image.jpg"  # مسیر عکس
 
 # تاریخ هدف (فرمت: سال، ماه، روز، ساعت، دقیقه)
